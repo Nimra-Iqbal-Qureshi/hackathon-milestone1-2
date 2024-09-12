@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    background-color: rgba(187, 151, 221, 0.589);
+}
+
+header, main, footer {
+    width: 90%;
+    max-width: 800px;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 5px;
+    background-color: whitesmoke;
+    border: 3px solid;
+    
+}
+
+.profile-pic {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 2px solid;
+}
+
+
+.personal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.personal h1 {
+    font-size: 2.5rem;
+}
+
+.personal h2 {
+    font-size: 1.5rem;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    border: 2px solid;
+}
+
+.para {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.heading {
+    font-size: 1.8rem;
+    background-color: rgb(92, 97, 97);
+    color: rgb(19, 18, 18);
+    padding: 5px 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.contentpara {
+    font-size: 1rem;
+    margin: 10px 0 5px 10px;
+}
+
+#skillSec ul {
+    margin-left: 25px;
+}
+
+#btnDiv {
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    text-transform: uppercase;
+    text-align: center;
+   
+}
+
+.btn {
+    width: auto;
+    height: 40px;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: rgb(43, 91, 194);
+    color: rgb(8, 8, 8);
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.btn:hover {
+    background-color: rgb(33, 71, 164);
+}
+
+.btn:active {
+    transform: scale(1.05);
+    background-color: rgba(99, 94, 88, 0.795);
+}
+
+.spc {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+@media (max-width: 600px) {
+    .personal h1 {
+        font-size: 2rem;
+    }
+
+    .personal h2 {
+        font-size: 1.2rem;
+    }
+
+    .profile-pic {
+        width: 100px;
+    }
+
+    .heading {
+        font-size: 1.5rem;
+    }
+
+    .contentpara {
+        font-size: 0.9rem;
+    }
+
+    .btn {
+        width: 100%;
+        margin-top: 10px;
+    }
+}
+
+#ObjectiveSec{
+    display: block;
+}
+
+#eduSec{
+    display: block;
+}
+#skillSec{
+    display: block;
+}
+
+#workexpSec{
+    display: block;
+}

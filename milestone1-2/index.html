@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div class="personal">
+            <div>
+                <h1>Asad Qureshi</h1>
+                <h2>Software Engineer</h2>
+            </div>
+            <img src="pro-pic.png" alt="Asad Qureshi" class="profile-pic">
+        </div>
+    </header>
+    <main>
+        <!-- Contact Info -->
+        <section class="info">
+            <p class="para"><i class="fa-solid fa-phone"></i> Phone: <span>03002345610</span></p>
+            <p class="para"><i class="fa-solid fa-envelope"></i> Email: <span>asadqureshi@gmail.com</span></p>
+            <p class="para"><i class="fa-brands fa-linkedin"></i> LinkedIn: <span>AsadQureshi</span></p>       
+        </section>
+
+        <!-- Objective -->
+        <section id="ObjectiveSec">
+            <h2 class="heading">Objective</h2>
+            <p class="contentpara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus architecto doloremque odio laboriosam doloribus libero provident, accusamus ut, fugit vel id, harum quam iure commodi fugiat. Nostrum praesentium neque cum?</p>
+        </section>
+
+        <!-- Education -->
+        <section id="eduSec">
+            <h2 class="heading">Education</h2>
+            <p class="contentpara"><span>Bachelor in Computer Science</span></p>
+            <p class="contentpara"><span>XYZ University</span>, <span>2022</span></p>
+        </section>
+
+        <!-- Skills -->
+        <section id="skillSec">
+            <h2 class="heading">Skills</h2>
+            <ul>
+                <li><span class="contentpara">HTML & CSS</span></li>
+                <li><span class="contentpara">TypeScript</span></li>
+                <li><span class="contentpara">JavaScript</span></li>
+            </ul>
+        </section>
+
+        <!-- Work Experience -->
+        <section id="workexpSec" class="work-exp">
+            <h2 class="heading">Work Experience</h2>
+            <p class="contentpara"><span>Software Developer</span> at <span>XYZ Company</span>, <span>2023</span> - <span>Present</span></p>
+        </section>
+    </main>
+    <footer>
+        <div id="btnDiv">
+            <h3>Toggle section</h3>
+            <div class="spc">
+                <button id="ObjectiveBtn" class="btn">Objective</button>
+                <button id="EducationBtn" class="btn">Education</button>
+                <button id="SkillBtn" class="btn">Skills</button>
+                <button id="WorkBtn" class="btn">Work Experience</button>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="script.js"></script>
+</html>
